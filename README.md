@@ -7,19 +7,19 @@
 This will start a new container with wso2 identity server 5.10
 ```bash
 cd wso2-identity-server
-./run.sh
+./start-identity-server.sh
 ```
 
 ## Starting sample apps container with tomcat
 This will start tomcat server with the sample apps included in `sample_apps/webapps` directory.
 ```bash
 cd sample_apps
-./run.sh
+./start-apps.sh
 ```
 
 ## Running mysql-server container
 This will run mysql server with the dump files in	`mysql/sql-scripts`
 ```bash
 cd mysql
-./run.sh
+./start-mysql.sh
 ```
