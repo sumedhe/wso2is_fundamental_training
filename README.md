@@ -1,0 +1,1 @@
+wso2is_fundamental_training
