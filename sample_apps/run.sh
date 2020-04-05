@@ -1,10 +1,10 @@
 #!/bin/bash
 
-APPNAME=sample_app
+SAMPLE_APPS_CONTAINER=sample_apps
 
 docker run -ti --rm \
     -p 8080:8080 \
     -v "$(pwd)"/webapps:/usr/local/tomcat/webapps \
-    --name ${APPNAME} \
+    --name ${SAMPLE_APPS_CONTAINER} \
     tomcat:latest
 
